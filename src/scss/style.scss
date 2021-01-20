@@ -1,0 +1,113 @@
+@import 'variables.scss';
+
+body{
+    font: 100% $font;
+    color: $color-gray6b;
+    margin: 0;
+    padding: 0;
+    background-color: $color-white;
+    overflow-x: hidden;
+    
+}
+
+main{
+    padding: 0 1em;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+
+    section {
+        flex-grow: 1;
+        flex-basis: 45%;
+        border: $border-sec-war;
+        -webkit-box-shadow: $bx-shadow;
+        -moz-box-shadow: $bx-shadow;
+        box-shadow: $bx-shadow;
+        padding: $padd;
+        margin: 16px;
+        clear: both;
+        overflow: auto;
+        box-sizing: border-box;
+        #selling-points {
+            flex-grow: 2;
+            flex-basis: 100%;
+        }
+    }
+
+    code {
+        background: #000;
+        border: $border-code;
+        color: $color-gray8c;
+        page-break-inside: avoid;
+        font-family: monospace;
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 1.6em;
+        max-width: 100%;
+        overflow: auto;
+        padding: 1em 1.5em;
+        display: block;
+        word-wrap: break-word;
+
+        article code.before {
+            float: left;
+            width: 40%;
+        }
+
+        article code.after {
+            float: right;
+            width: 40%;
+        }
+
+
+    }
+}
+
+h1,
+h2,
+h3 {
+    color: $color-title;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: $padd-dbl;
+    margin-bottom: 0px;
+}
+
+.messages {
+    padding: $padd;
+}
+
+%messages_style {
+    border: 1px solid &$color-gray6b;
+    padding: $padd;
+    color: $color-white;
+
+}
+.success {
+    @extend %messages_style;
+    background-color: $color-green;
+}
+.error {
+    @extend %messages_style;
+    background-color: $color-red;
+
+    &:hover{
+        background-color: $color-green;
+    }
+    
+}
+.warning {
+   @extend %messages_style;
+   background-color: $color-orange;
+}
+
+

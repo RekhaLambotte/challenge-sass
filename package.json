@@ -1,0 +1,23 @@
+{
+  "name": "challenge-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss -o src/css --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RekhaLambotte/challenge-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RekhaLambotte/challenge-sass/issues"
+  },
+  "homepage": "https://github.com/RekhaLambotte/challenge-sass#readme"
+}

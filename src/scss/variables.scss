@@ -1,0 +1,22 @@
+
+
+$font: "Space Mono", monospace;
+$color-white:  #fff;
+$color-gray8c: #8C8C8C;
+$arct-bgd-color: #000;
+$color-gray6b: #6b717f;
+$color-title: #BF4080;
+$color-green: green;
+$color-red: red;
+$color-orange: orange;
+$padd: 16px;
+$padd-dbl: $padd*2;
+$border-code: 1px solid $color-gray6b;
+$border-sec-war: 1px solid $color-gray8c;
+$bx-shadow: 10px 10px 15px -4px #6b717f;
+
+@mixin bx-shadow($colour:$bx-shadow){
+$border-code: 1px solid $color-gray6b;
+$border-sec-war: 1px solid $color-gray8c;
+$bx-shadow: 10px 10px 15px -4px #6b717f;
+}
