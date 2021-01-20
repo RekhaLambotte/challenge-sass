@@ -21,7 +21,7 @@ Délai: 1jour
 en cours
 
 ## Projet déployé: 
-Lien Github : git@github.com:RekhaLambotte/challenge-sass.git 
+Lien Github : https://github.com/RekhaLambotte/challenge-sass.git
 
 Lien web: https://rekhalambotte.github.io/challenge-sass/
 
