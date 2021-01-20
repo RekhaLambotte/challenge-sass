@@ -21,9 +21,9 @@ Délai: 1jour
 en cours
 
 ## Projet déployé: 
-Lien Github : 
+Lien Github : git@github.com:RekhaLambotte/challenge-sass.git 
 
-Lien web: 
+Lien web: https://rekhalambotte.github.io/challenge-sass/
 
 ## Remarques:
 Quelques complications pour installer sass dans le dossier de travail. 
