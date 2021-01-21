@@ -13,10 +13,9 @@ $padd: 16px;
 $padd-dbl: $padd*2;
 $border-code: 1px solid $color-gray6b;
 $border-sec-war: 1px solid $color-gray8c;
-$bx-shadow: 10px 10px 15px -4px #6b717f;
 
-@mixin bx-shadow($colour:$bx-shadow){
-$border-code: 1px solid $color-gray6b;
-$border-sec-war: 1px solid $color-gray8c;
-$bx-shadow: 10px 10px 15px -4px #6b717f;
+@mixin bx-shadow($shadow){
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow ;
+    box-shadow: $shadow;
 }

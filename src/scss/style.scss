@@ -22,9 +22,7 @@ article{
         flex-grow: 1;
         flex-basis: 45%;
         border: $border-sec-war;
-        -webkit-box-shadow: $bx-shadow;
-        -moz-box-shadow: $bx-shadow;
-        box-shadow: $bx-shadow;
+        @include bx-shadow(10px 10px 15px -4px #6b717f);
         padding: $padd;
         margin: 16px;
         clear: both;
