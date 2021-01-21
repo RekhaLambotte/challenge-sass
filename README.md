@@ -1,5 +1,5 @@
 # challenge-sass
-Je vais m'initié à SASS
+Je vais m'initié à SASS.
 
 ## Cadre:
 Cet exercice est effectué dans le cadre de ma troisième semaine de formation au centre de formation BECODE. 
@@ -18,7 +18,7 @@ Pour cet exercice le but est de rééecrire un fichier css avec sass.
 Délai: 1jour 
 
 ## Mission:
-![mission sass](image/mission-sass.png)
+![mission sass](image/sass.png)
 
 ## Statut:
 Terminé
