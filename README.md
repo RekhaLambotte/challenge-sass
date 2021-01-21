@@ -17,8 +17,11 @@ Juste moi :)
 Pour cet exercice le but est de rééecrire un fichier css avec sass.
 Délai: 1jour 
 
+## Mission:
+![mission sass](image/mission-sass.png)
+
 ## Statut:
-en cours
+Terminé
 
 ## Projet déployé: 
 Lien Github : https://github.com/RekhaLambotte/challenge-sass.git
@@ -27,5 +30,6 @@ Lien web: https://rekhalambotte.github.io/challenge-sass/
 
 ## Remarques:
 Quelques complications pour installer sass dans le dossier de travail. 
-Délai plus raisonnable.
+Je suis heureuse d'avoir réussi à tenir le délai (à 1h près).
+
 
